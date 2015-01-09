@@ -1,0 +1,12 @@
+name: Date Tools
+version: 0.0.1
+description: "This plugin provides date tools to twig inside of Grav CMS."
+icon: 
+author:
+  name: Kaleb Heitzman
+  email: kalebheitzman@gmail.com
+  url: http://kheitzman.com
+homepage: http://github.com/kalebheitzman/grav-plugin-date-tools
+keywords: events, plugin
+bugs: https://github.com/kalebheitzman/grav-plugin-date-tools
+license: MIT
