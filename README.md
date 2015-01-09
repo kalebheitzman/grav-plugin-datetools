@@ -19,7 +19,7 @@ dateFormat:
 ## Example Use
 
 ```
-{% set sundayEvents = page.collection({'items':{'@taxonomy.event_repeat':'U'}, 'order':{'by':'date','dir':'asc'}}) %}
+{% set pages = page.collection({'items':{'@taxonomy.category':'News'},'dateRange':{datetools.startOfMonth, datetools.endOfMonth},'order':{'by':'date','dir':'asc'}}) %}
 ```
 
 ## Common dates and times available
