@@ -1,16 +1,19 @@
 # Date tools plugin for Grav CMS
 
-This Grav CMS plugin provides date tools to use inside of Twig for filtering pages.
+This Grav CMS plugin provides date tools to use inside of Twig for filtering pages. With the release of Grav 0.9.13 `startDate` and `endDate` were introduced to collection parsing. You can use the following date tools to set various dates you would like your collection to fall between. 
 
 ## Configuration
 
-Set up date formats in datetools.yaml
+Set up your preferred date formats in datetools.yaml
+
+The default is set to the American date format of 01/01/2015 12:00am.
+
 ```
 dateFormat: 
-    default: m/d/Y g:ia
-    long: 
-    medium: 
-    short: 
+    default: "m/d/Y g:ia"
+    long: "l, F j, g:ia"
+    medium: "F j, g:ia"
+    short: "m/d/y"
 ```
 
 ## Example Use
