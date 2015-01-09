@@ -22,7 +22,7 @@ dateFormat:
 {% set sundayEvents = page.collection({'items':{'@taxonomy.event_repeat':'U'}, 'order':{'by':'date','dir':'asc'}}) %}
 ```
 
-## Methods available
+## Common dates and times available
 
 ```
 datetools.today
@@ -34,7 +34,10 @@ datetools.startOfMonth
 datetools.endOfMonth
 datetools.startOfYear
 datetools.endOfYear
+```
 
+## Methods available
+
+```
 datetools.parseDate('today')
-
 ```
