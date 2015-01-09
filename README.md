@@ -20,6 +20,12 @@ dateFormat:
 
 ```
 {% set pages = page.collection({'items':{'@taxonomy.category':'News'},'dateRange':{datetools.startOfMonth, datetools.endOfMonth},'order':{'by':'date','dir':'asc'}}) %}
+
+<ul>
+{% foreach pages as page %}
+    <li>{{ page.title }}</li>
+{% endfor %}
+</ul>
 ```
 
 ## Common dates and times available
