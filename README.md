@@ -6,7 +6,11 @@ This Grav CMS plugin provides date tools to use inside of Twig for filtering pag
 
 Set up date formats in datetools.yaml
 ```
-dateFormat: m/d/Y g:ia
+dateFormat: 
+    default: m/d/Y g:ia
+    long: 
+    medium: 
+    short: 
 ```
 
 ## Example Use

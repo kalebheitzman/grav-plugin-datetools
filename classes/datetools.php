@@ -62,7 +62,7 @@ class DateTools
 		// get the config
 		$this->config = self::$grav['config'];
 		// date format
-		$this->dateFormat = $this->config->get('plugins.datetools.dateFormat');
+		$this->dateFormat = $this->config->get('plugins.datetools.dateFormat.default');
 		// get today
 		$this->now = $this->now();
 		
