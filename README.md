@@ -45,8 +45,13 @@ datetools.startOfYear
 datetools.endOfYear
 ```
 
-## Methods available
+## Relative parser method
+
+The following date parser is based on the [Carbon](https://github.com/briannesbitt/Carbon) api extension for DateTime in PHP 5.3+. Read the [documentation](https://github.com/briannesbitt/Carbon#carbon) for the Carbon project for more info.
 
 ```
-datetools.parseDate('today')
+datetools.parseDate('now')
+datetools.parseDate('next wednesday')
+datetools.parseDate('last friday')
+datetools.parseDate('first day of January 2015')
 ```
