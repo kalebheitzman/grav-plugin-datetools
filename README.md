@@ -19,11 +19,14 @@ dateFormat:
 ## Example Use
 
 ```
-{% set pages = page.collection({'items':{'@taxonomy.category':'News'},'dateRange':{datetools.startOfMonth, datetools.endOfMonth},'order':{'by':'date','dir':'asc'}}) %}
+{% set events = page
+    .collection({'items':{'@taxonomy.type':'event'}})
+    .dateRange(datetools.startOfWeek, datetools.endOfMonth)
+    .order('date', 'asc') %}
 
 <ul>
-{% foreach pages as page %}
-    <li>{{ page.title }}</li>
+{% for event in events %}
+    <li><a href="{{ event.url }}">{{ event.title }}</a> {{ event.date|date('m/d/Y g:ia') }}</li>
 {% endfor %}
 </ul>
 ```
