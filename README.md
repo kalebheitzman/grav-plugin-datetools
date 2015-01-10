@@ -16,7 +16,7 @@ dateFormat:
     short: "m/d/y"
 ```
 
-## Example Use
+## Example Twig Use
 
 ```
 {% set events = page
@@ -31,7 +31,7 @@ dateFormat:
 </ul>
 ```
 
-## Common dates and times available
+## Common Dates and Times
 
 ```
 datetools.today
@@ -45,7 +45,7 @@ datetools.startOfYear
 datetools.endOfYear
 ```
 
-## Relative parser method
+## Relative Parser Method
 
 The following date parser is based on the [Carbon](https://github.com/briannesbitt/Carbon) api extension for DateTime in PHP 5.3+. Read the [documentation](https://github.com/briannesbitt/Carbon#carbon) for the Carbon project for more info.
 
