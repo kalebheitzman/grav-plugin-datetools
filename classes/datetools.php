@@ -74,7 +74,7 @@ class DateTools
 	}
 
 	/**
-	 * initialize processing vars
+	 * Initialize processing vars
 	 * 
 	 * @internal
 	 */ 
@@ -99,20 +99,21 @@ class DateTools
 	 */ 
 	private function initCommonDates()
 	{
-		$this->today = $this->now()->format($this->dateFormat);
-		$this->tomorrow = $this->tomorrow()->format($this->dateFormat);
-		$this->yesterday = $this->yesterday()->format($this->dateFormat);
-		$this->startOfWeek = $this->startOfWeek()->format($this->dateFormat);
-		$this->endOfWeek = $this->endOfWeek()->format($this->dateFormat);
+		$this->today	 	= $this->now()->format($this->dateFormat);
+		$this->tomorrow 	= $this->tomorrow()->format($this->dateFormat);
+		$this->yesterday 	= $this->yesterday()->format($this->dateFormat);
+		$this->startOfWeek 	= $this->startOfWeek()->format($this->dateFormat);
+		$this->endOfWeek 	= $this->endOfWeek()->format($this->dateFormat);
 		$this->startOfMonth = $this->startOfMonth()->format($this->dateFormat);
-		$this->endOfMonth = $this->endOfMonth()->format($this->dateFormat);
-		$this->startOfYear = $this->startOfYear()->format($this->dateFormat);
-		$this->endOfYear = $this->endOfYear()->format($this->dateFormat);
+		$this->endOfMonth 	= $this->endOfMonth()->format($this->dateFormat);
+		$this->startOfYear 	= $this->startOfYear()->format($this->dateFormat);
+		$this->endOfYear 	= $this->endOfYear()->format($this->dateFormat);
 	}
 
 	/**
 	 * Parse a relative date
-	 * 
+	 *
+	 * @param string $string Relative Date string
 	 * @return string DateTime
 	 */
 	public function parseDate($string = null)

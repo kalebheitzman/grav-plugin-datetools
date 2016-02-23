@@ -1,9 +1,13 @@
 # v1.0.1
+## 02/23/2016
 
-## 02/13/2016
 1. [](#new)
-	* Ensure compatibility with the Grav Admin Plugin
+	* Added Admin-side plugin config form
+2. [](#improved)
+	* Updated Carbon Date library to latest version
+	* Updated code documentation
 
+# v1.0.0
 ## 01/09/2015
 
 1. [](#new)
