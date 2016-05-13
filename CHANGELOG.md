@@ -1,9 +1,14 @@
+# v1.0.3
+## 05/13/2016
+1 [](#bugfix)
+	* Fixed Issue #2 - Config undefined
+
 # v1.0.2
 ## 02/23/2016
 
 1. [](#new)
 	* Added Admin-side plugin config form
-2. [](#improved)
+1. [](#improved)
 	* Updated Carbon Date library to latest version
 	* Updated code documentation
 
