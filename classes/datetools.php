@@ -57,13 +57,10 @@ class DateTools
 	/**
 	 * Construct
 	 */ 
-	public function __construct( $grav )
+	public function __construct( $args )
 	{
-		// get grav
-		$this->grav = $grav;
-
 		// get the config
-		$this->config = $this->grav['config'];
+		$this->config = $args['config'];
 
 		// date format
 		$this->dateFormat = $this->config->get('plugins.datetools.dateFormat.default');

@@ -38,8 +38,11 @@ class DateToolsPlugin extends Plugin
 	{
 		require_once __DIR__ . '/classes/datetools.php';
 
+		$args = [];
+		$args['config'] = $this->grav['config'];
+
 		$twig = $this->grav['twig'];
-		$twig->twig_vars['datetools'] = new DateTools($this->grav);
+		$twig->twig_vars['datetools'] = new DateTools($args);
 	}
 
 }
