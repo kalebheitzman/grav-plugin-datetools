@@ -1,3 +1,8 @@
+# v1.0.4
+## 07/04/2016
+1 [](#bugfix)
+	* Fixed Issue #5 - Config not being called statically
+
 # v1.0.3
 ## 05/13/2016
 1 [](#bugfix)
