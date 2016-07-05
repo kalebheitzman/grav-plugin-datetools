@@ -1,3 +1,8 @@
+# v1.0.5
+## 07/04/2016
+1 [](#bugfix)
+	* Fixed version number
+	
 # v1.0.4
 ## 07/04/2016
 1 [](#bugfix)
