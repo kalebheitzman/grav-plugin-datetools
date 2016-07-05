@@ -1,5 +1,5 @@
 name: Date Tools
-version: 1.0.4
+version: 1.0.5
 description: "This plugin provides date tools to twig inside of Grav CMS using the [Carbon](https://github.com/briannesbitt/Carbon) DateTime api extension."
 icon: clock-o
 author:
