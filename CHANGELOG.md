@@ -1,3 +1,9 @@
+# v1.0.6
+## 08/18/2016
+1 [](#improved)
+	* Updated code documentation
+	* Updated vendor packages
+
 # v1.0.5
 ## 07/04/2016
 1 [](#bugfix)
