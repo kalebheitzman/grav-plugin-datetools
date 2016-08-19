@@ -3,6 +3,8 @@
 1 [](#improved)
 	* Updated code documentation
 	* Updated vendor packages
+1 [](#bugfix)
+	* Fixed Issue #6 & Issue #7- tag structure (deleted tabs v1.0.0, v1.0.1, v1.0.2)
 
 # v1.0.5
 ## 07/04/2016
