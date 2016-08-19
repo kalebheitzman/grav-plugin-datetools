@@ -1,6 +1,6 @@
 # Date tools plugin for Grav CMS
 
-*This plugin works with Grav v1.1.0-rc.3 and above.*
+*This plugin works with Grav v1.1.3 and above.*
 
 This [Grav](http://getgrav.org) plugin provides date tools to use inside of Twig for filtering pages. With the release of Grav 0.9.13 `startDate` and `endDate` were introduced to collection parsing. You can use the following `datetools` to set various dates for retrieving [collections.](http://learn.getgrav.org/content/collections) 
 
